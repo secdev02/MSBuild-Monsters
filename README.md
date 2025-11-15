@@ -210,8 +210,8 @@ This technique showcases how extensible build systems can be repurposed for code
 
 The approach demonstrates that legitimate development tools, when combined creatively, can achieve sophisticated code execution without traditional malware artifacts.
 
-**Credit**: Original research by Casey Smith (@subTee)
+**Credit**: Original research by Casey  (@_subTee)
 
 ---
 
-*This post is for educational purposes demonstrating MSBuild capabilities. Use responsibly and only in authorized environments.*
+*This post demonstrates MSBuild capabilities. Use responsibly and only in authorized environments. Brush your teeth and floss too, also, consider eating less, excercising more, while we're giving advice.*

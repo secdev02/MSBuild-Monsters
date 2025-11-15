@@ -13,7 +13,7 @@
 	<!-- 
 	
 	$env:MSBUILDENABLEALLPROPERTYFUNCTIONS = 1 
-	C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe basic.xml 
+	C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe frankenstien.xml 
 	
 	
 	I added a breakpoint prefix here for testing..

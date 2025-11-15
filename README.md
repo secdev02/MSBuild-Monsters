@@ -190,7 +190,7 @@ For any Win32 API interop or complex marshaling scenarios, you must use `Type="C
 
 ## Why This Works
 
-1. **No Binary Drops**: Everything executes in-memory through MSBuild.exe
+1. **No Binary Drops**: Everything executes in-memory through MSBuild.exe.. Kind of... 
 2. **Signed Binary**: MSBuild.exe is a legitimate Microsoft-signed executable
 3. **Complex Detection**: The technique splits execution across XML properties and inline C# code
 4. **Built-in Functionality**: Uses only features shipped with .NET Framework 4.0+
@@ -198,7 +198,7 @@ For any Win32 API interop or complex marshaling scenarios, you must use `Type="C
 ## Defense Considerations
 
 - Monitor MSBuild execution outside build environments
-- Restrict `MSBUILDENABLEALLPROPERTYFUNCTIONS` environment variable
+- Restrict `MSBUILDENABLEALLPROPERTYFUNCTIONS` environment variable, not sure how tbh lol
 - Implement application whitelisting policies
 - Analyze XML files for suspicious property functions and inline tasks
 - Detect memory-mapped files with execute permissions
